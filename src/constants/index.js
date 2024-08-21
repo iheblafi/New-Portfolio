@@ -12,6 +12,13 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  nest,
+  jenkins,
+  vagrant,
+  esprit,
+  terrakodo,
+  sqliservices,
+  parapharmacy,
   git,
   figma,
   docker,
@@ -23,6 +30,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  login,
+  field4yield,
+  social
 } from "../assets";
 
 export const navLinks = [
@@ -42,6 +52,10 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Software Architect",
+    icon: backend,
+  },
+  {
     title: "Web Developer",
     icon: web,
   },
@@ -50,11 +64,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "DevOps",
     icon: creator,
   },
 ];
@@ -81,8 +91,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "jenkins",
+    icon: jenkins,
   },
   {
     name: "Tailwind CSS",
@@ -97,16 +107,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "vagrant",
+    icon: vagrant,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "nest",
+    icon: nest,
   },
   {
     name: "docker",
@@ -116,55 +126,50 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Mobile Application Developer",
+    company_name: "Parapharmacy Mariem",
+    icon: parapharmacy,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "February 2020 - July 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Collaboration with the staff in the design, development, testing and implementation of the mobile application.",
+      "Conception, development and integration of a mobile application Para-Ma.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Esprit",
+    icon: esprit,
+    iconBg: "#E6DEDD",
+    date: "July 2021 - August 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Conception,development and integration of a website Social-Street-League.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Support project management activities.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: " Web Developer and Devops assistant",
+    company_name: "Terrakodo",
+    icon: terrakodo,
+    iconBg: "#383E56",
+    date: "June 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Conception, development and deployment of a website Field4Yield.",
+      "Automated build and deployment process with jenkins.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer and Devops assistant",
+    company_name: "SQLI Services",
+    icon: sqliservices,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - July 2024",
+    points: [
+      "Conception, development and deployment of a website and mobile application Transporty",
+      "Automated build and deployment process with jenkins",
     ],
   },
 ];
@@ -198,10 +203,14 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Transporty",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web and mobile application that allows entreprises and grocery owners to track transporters in real time, providing a convenient and efficient solution for transportation needs.",
     tags: [
+      {
+        name: "nest-js",
+        color: "pink-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
@@ -211,45 +220,53 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "jenkins",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: login,
+    source_code_link: "https://github.com/iheblafi/Transportation",
   },
   {
-    name: "Job IT",
+    name: "Field4Yield",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables young farmers to connect, create or participate and locate available farming projects based on their current location providing a comprehensive and efficient solution.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Docker",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Jenkins",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Laravel",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: field4yield,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Social street league",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive and user friendly sport social platform that allows users to check and navigate through the latest sport news and also offers recommendations for popular events.",
     tags: [
       {
-        name: "nextjs",
+        name: "git",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +274,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: social,
+    source_code_link: "https://github.com/iheblafi/SocialStreetLeague",
   },
 ];
 

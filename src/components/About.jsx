@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
        Hi,I am a graduate in the field of computer science specialized in software architecture engineering. 
-       Throughout my education, I gained experiences and skills 
+       Throughout my professional, I gained experiences and skills 
        that allowed me to successfully design, develop, 
        and maintain web applications that deliver good user experiences.
        In addition to my web development expertise, I am interested in 

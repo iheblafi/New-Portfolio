@@ -38,6 +38,7 @@ import tripguide from "./tripguide.png";
 import field4yield from "./field4yield.png"
 import social from "./social.png"
 import pic2 from "./pic2.png"
+import mmd from './mmd.png'
 
 export {
   logo,
@@ -79,5 +80,6 @@ export {
   login,
   field4yield,
   social,
-  pic2
+  pic2,
+  mmd,
 };

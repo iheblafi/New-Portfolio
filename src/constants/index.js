@@ -32,7 +32,8 @@ import {
   threejs,
   login,
   field4yield,
-  social
+  social,
+  mmd,
 } from "../assets";
 
 export const navLinks = [
@@ -125,6 +126,62 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: "Mobile Application Developer",
+  //   company_name: "Parapharmacy Mariem",
+  //   icon: parapharmacy,
+  //   iconBg: "#383E56",
+  //   date: "February 2020 - July 2020",
+  //   points: [
+  //     "Collaboration with the staff in the design, development, testing and implementation of the mobile application.",
+  //     "Conception, development and integration of a mobile application Para-Ma.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Esprit",
+  //   icon: esprit,
+  //   iconBg: "#E6DEDD",
+  //   date: "July 2021 - August 2022",
+  //   points: [
+  //     "Conception,development and integration of a website Social-Street-League.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Support project management activities.",
+  //   ],
+  // },
+  // {
+  //   title: " Web Developer and Devops assistant",
+  //   company_name: "Terrakodo",
+  //   icon: terrakodo,
+  //   iconBg: "#383E56",
+  //   date: "June 2023 - August 2023",
+  //   points: [
+  //     "Conception, development and deployment of a website Field4Yield.",
+  //     "Automated build and deployment process with jenkins.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //   ],
+  // },
+  {
+    title: "Full stack Developer",
+    company_name: "SQLI Services",
+    project: "MoreMedDiet Project (PRIMA Initiative)",
+    description:  `The MoreMedDiet Project, part of the EU-funded PRIMA program, is a research-driven initiative focused on building a web platform to monitor and promote Mediterranean dietary habits through data analytics, ERP integration, and user engagement tools.`,
+    icon: sqliservices,
+    iconBg: "#E6DEDD",
+    date: "November 2024 - Present",
+    points: [
+     ,
+
+      " Collaborated with nutritionists, researchers, and stakeholders to align the platform’s functionality with scientific and regulatory requirements.",
+      "Developed a custom survey and data collection system, integrating ERP for structured data storage, retrieval, and processing",
+      "Leveraged ERP systems for automated reporting, data consistency, and process optimization.",
+      "Deployed the platform on OVH cloud infrastructure, ensuring high availability and scalability.",
+    ],
+  },
+];
+
+const academics = [
   {
     title: "Mobile Application Developer",
     company_name: "Parapharmacy Mariem",
@@ -203,6 +260,32 @@ const testimonials = [
 
 const projects = [
   {
+    name: "MoreMed Diet- MMD",
+    description:
+      "The MoreMedDiet Project, part of the EU-funded PRIMA program, is a web platform that focuses on tracking and promoting Mediterranean diets using data insights and ERP tools.",
+    tags: [
+      {
+        name: "git",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MERN stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ovh",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mmd,
+    source_code_link: "https://github.com/iheblafi/Edirectory",
+  },
+  
+  {
     name: "Transporty",
     description:
       "Web and mobile application that allows entreprises and grocery owners to track transporters in real time, providing a convenient and efficient solution for transportation needs.",
@@ -252,31 +335,7 @@ const projects = [
     image: field4yield,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Social street league",
-    description:
-      "A comprehensive and user friendly sport social platform that allows users to check and navigate through the latest sport news and also offers recommendations for popular events.",
-    tags: [
-      {
-        name: "git",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Django",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: social,
-    source_code_link: "https://github.com/iheblafi/SocialStreetLeague",
-  },
+ 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, academics, testimonials, projects };

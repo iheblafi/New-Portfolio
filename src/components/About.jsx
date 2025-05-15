@@ -47,18 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       Hi,I am a graduate in the field of computer science specialized in software architecture engineering. 
-       Throughout my professional career, I gained experiences and skills 
-       that allowed me to successfully design, develop, 
-       and maintain web applications that deliver good user experiences.
-       In addition to my web development expertise, I am interested in 
-       and possess a strong background in DevOps practices, 
-       including continuous integration, automated testing, and deployment pipelines. 
-       I am well-versed in tools such as Docker, Kubernetes, Jenkins, and Git, 
-       and I thrive in creating and optimizing workflows 
-       that streamline the development process, improve 
-       collaboration among cross-functional teams, and ensure the reliability 
-       and scalability of applications.
+       Hi, I am a Full Stack Engineer with expertise in software architecture engineering. Throughout my professional career, I have acquired the skills and experience necessary to successfully design, develop, and maintain web applications that deliver exceptional user experiences.
+
+My technical proficiency includes the MERN stack, Angular, and Spring Boot, enabling me to build robust and scalable solutions across diverse environments. In addition to my web development expertise, I have a strong background in DevOps practices, including continuous integration, automated testing, and deployment pipelines.
+
+I am well-versed in tools such as Docker, Kubernetes, Jenkins, and Git, and I excel at creating and optimizing workflows that streamline development processes, enhance collaboration across cross-functional teams, and ensure application reliability and scalability.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

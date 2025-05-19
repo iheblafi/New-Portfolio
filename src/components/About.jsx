@@ -45,7 +45,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify text-justify'
       >
        Hi, I am a Full Stack Engineer with expertise in software architecture engineering. Throughout my professional career, I have acquired the skills and experience necessary to successfully design, develop, and maintain web applications that deliver exceptional user experiences.
 

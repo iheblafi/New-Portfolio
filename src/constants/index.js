@@ -163,7 +163,7 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Full stack Developer",
+    title: "Full-Stack Developer",
     company_name: "SQLI Services",
     project: "MoreMedDiet Project (PRIMA Initiative)",
     description:  `The MoreMedDiet Project, part of the EU-funded PRIMA program, is a research-driven initiative focused on building a web platform to monitor and promote Mediterranean dietary habits through data analytics, ERP integration, and user engagement tools.`,
@@ -219,7 +219,7 @@ const academics = [
     ],
   },
   {
-    title: "Full stack Developer and Devops assistant",
+    title: "Full-Stack Developer and Devops assistant",
     company_name: "SQLI Services",
     icon: sqliservices,
     iconBg: "#E6DEDD",

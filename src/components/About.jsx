@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify text-justify'
       >
-       Hi, I am a Full Stack Engineer with expertise in software architecture engineering. Throughout my professional career, I have acquired the skills and experience necessary to successfully design, develop, and maintain web applications that deliver exceptional user experiences.
+       Hi, I am a Full-Stack Engineer with expertise in software architecture engineering. Throughout my professional career, I have acquired the skills and experience necessary to successfully design, develop, and maintain web applications that deliver exceptional user experiences.
 
 My technical proficiency includes the MERN stack, Angular, and Spring Boot, enabling me to build robust and scalable solutions across diverse environments. In addition to my web development expertise, I have a strong background in DevOps practices, including continuous integration, automated testing, and deployment pipelines.
 
